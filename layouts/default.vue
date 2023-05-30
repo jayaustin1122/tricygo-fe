@@ -36,7 +36,7 @@ export default {
         {
           icon: "mdi-apps",
           title: "Dashboard",
-          to: "/admin/dashboard",
+          to: "/dashboard",
         },
       ],
     };
