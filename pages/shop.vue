@@ -9,7 +9,7 @@
                 </div>
              
         </div>
-        <div class="d-flex">
+        <div class="d-flex">  
         <v-card class="mx-5 boxbg   rounded-card" width="500" outlined >
           <v-list-item three-line> 
                 <v-list-item-content>
