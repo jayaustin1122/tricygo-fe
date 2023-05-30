@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "ProductsPage",
+  name: "RegisterPage",
   layout: "simple",
 };
 </script>

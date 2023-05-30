@@ -4,7 +4,6 @@
 
 <script>
 export default {
-  name: "ProductsPage",
-  layout: "simple",
+  name: "DashboardPage",
 };
 </script>
