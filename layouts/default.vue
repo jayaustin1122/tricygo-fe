@@ -34,16 +34,34 @@ export default {
       clipped: true,
       drawer: false,
       items: [
+  
+      {
+          icon: "mdi-account",
+          title: "ADMIN",
+        
+        },
         {
-          icon: "mdi-apps",
-          title: "Dashboard",
+          icon: "mdi-cart",
+          title: "SIDECARS",
+          to: "/products",
+        },
+        {
+          icon: "mdi-history",
+          title: "VIEW ORDERS",
           to: "/dashboard",
+        },
+      
+        {
+          icon: "mdi-cog",
+          title: "ACCOUNT SETTINGS",
+          to: "/accounts",
         },
         {
           icon: "mdi-logout",
           title: "Logout",
           to: "/logout",
         },
+     
       ],
     };
   },
