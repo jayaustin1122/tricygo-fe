@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <v-navigation-drawer v-model="drawer" fixed app>
+    <v-navigation-drawer v-model="drawer" :clipped="clipped" fixed app>
       <v-list>
         <v-list-item
           v-for="(item, i) in items"
@@ -31,12 +31,18 @@ export default {
   name: "DefaultLayout",
   data() {
     return {
+      clipped: true,
       drawer: false,
       items: [
         {
           icon: "mdi-apps",
           title: "Dashboard",
           to: "/dashboard",
+        },
+        {
+          icon: "mdi-logout",
+          title: "Logout",
+          to: "/logout",
         },
       ],
     };
